@@ -1,1 +1,54 @@
 /*  your css code here. If applicable */
+
+.head{
+	width: 150px;
+	height: 150px;
+	background-color: #a4d9eb;
+	border: 5px solid #9bbcc2;
+	border-radius: 20px;
+	display: flex;
+	justify-content: center;
+}
+
+.light{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.bulb{
+	width: 30px;
+	height: 30px;
+	background-color: #ffa500;
+	border-radius: 50%;
+}
+
+.stick{
+	width: 10px;
+	height: 15px;
+	background-color: #808080;
+}
+
+.ears{
+	position: absolute;
+}
+
+.right-ear{
+	width: 10px;
+	height: 50px;
+	background-color: #c90a0a;
+	border-radius: 0 5px 5px 0;
+}
+
+.left-ear{
+	position: relative;
+	width: 10px;
+	height: 50px;
+	background-color: #c90a0a;
+	border-radius: 5px 0 0 5px;
+}
+
+
+
+
+
